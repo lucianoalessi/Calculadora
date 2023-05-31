@@ -24,12 +24,7 @@ const calcularResultado = () =>{
 
   return (
     <div className="App">
-      <div className= 'freecodecamp-logo-contenedor'>
-        <img
-          src={freeCodeCampLogo}
-          className='freecodecamp-logo'
-          alt='Logo de freecodecamp' />
-      </div>
+      
       <div className='contenedor-calculadora'>
         <Pantalla input={input} />
         <div className='fila'>
@@ -62,6 +57,12 @@ const calcularResultado = () =>{
 
         <div className='fila'>
           <BotonClear manejarClear={() => setInput('')}>Clear</BotonClear>
+        </div>
+
+        <div className='author'>
+          Designed and Coded by
+          <br/>
+          <a href='https://www.linkedin.com/in/lucianoalessi/' target='_blank'>Luciano A. Alessi</a>
         </div>
 
       </div>
