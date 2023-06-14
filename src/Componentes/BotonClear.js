@@ -6,7 +6,7 @@ const BotonClear = (props) => (
     onClick={props.manejarClear}>
     {props.children} 
 </div>
-)
+);
 
 
 export default BotonClear;
